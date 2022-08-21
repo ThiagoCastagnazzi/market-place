@@ -146,9 +146,12 @@ export default {
   text-transform: capitalize;
 }
 
-@media screen and (max-width: 768px) {
-  .card-container-grid {
+@media screen and (max-width: 500px) {
+  .search-container {
     flex-direction: column;
+  }
+  .form-control {
+    width: 100%;
   }
 }
 </style>
